@@ -5,7 +5,7 @@ var gulp = require('./gulp')([
 	'javascript',
 	// Define a task: minifyjavascript (code exported from /gulp/tasks/minifyjavascript.js) – wich will be prepended by the javascript task
 	{
-		requirements: ['javascript'],
+		dependencies: ['javascript'],
 		name: 'minifyjavascript'
 	},
 	// Define a task: watch (code exported from /gulp/tasks/watch.js)
